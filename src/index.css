@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Manrope', system-ui, sans-serif;
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  
+  --color-eco-primary: #4BAF47;
+  --color-eco-dark: #2F6F2C;
+  --color-eco-light: #E9F5E9;
+  --color-eco-accent: #3C9B3A;
+  
+  --color-eco-slate-50: #F8FAF8;
+  --color-eco-slate-900: #1A2E1A;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Base button class for reuse */
+@layer components {
+  .btn-premium {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-full bg-gradient-to-r from-eco-primary to-eco-accent text-white font-medium text-sm hover:shadow-lg hover:shadow-eco-primary/30 hover:-translate-y-0.5 transition-all duration-300;
+  }
+}

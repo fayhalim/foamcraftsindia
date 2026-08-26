@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoSoft Mattresses by Foam Crafts India</title>
+    <meta name="description" content="Premium, custom-sized orthopedic and memory foam mattresses directly from the manufacturer. Better Sleep. Better Life. Made in India." />
+    <meta name="keywords" content="mattresses, memory foam, orthopedic mattress, custom size mattress, Foam Crafts India, EcoSoft" />
+    <meta property="og:title" content="EcoSoft Mattresses by Foam Crafts India" />
+    <meta property="og:description" content="Premium, custom-sized orthopedic and memory foam mattresses directly from the manufacturer. Better Sleep. Better Life." />
+    <meta property="og:type" content="website" />
+    <script>
+      try {
+        // Prevent third-party libraries (like Firebase/polyfills) from crashing the app 
+        // in iframe environments that mock window.fetch with a getter-only property.
+        let originalFetch = window.fetch;
+        Object.defineProperty(window, 'fetch', {
+          get: function() { return originalFetch; },
+          set: function(val) { originalFetch = val; },
+          configurable: true
+        });
+      } catch (e) {
+        console.warn('Failed to redefine window.fetch:', e);
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
