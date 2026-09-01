@@ -33,13 +33,25 @@ export default function Hero() {
             <span className="w-2.5 h-2.5 rounded-full bg-eco-primary shadow-[0_0_8px_rgba(75,175,71,0.8)] animate-pulse"></span>
             Premium Mattress Manufacturer in Varanasi
           </motion.div>
-          <h1 className="text-5xl lg:text-7xl font-heading font-bold tracking-tight mb-8 leading-[1.1]">
-            Ecosoft Mattresses<br className="hidden sm:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-eco-primary to-eco-light">Foam Crafts India</span>
-          </h1>
-          <p className="text-lg text-eco-light/80 mb-10 leading-relaxed max-w-2xl font-medium">
-            Leading mattress manufacturer in Varanasi. Combining quality materials, skilled craftsmanship, and advanced manufacturing to deliver mattresses that provide superior comfort, support, and durability.
-          </p>
+
+        {/* 1. Main Heading (Clean & Punchy Brand Identity) */}
+        <h1 className="text-4xl lg:text-5xl font-heading font-bold tracking-tight mb-3 leading-[1.2]">
+          Ecosoft Mattresses<br className="hidden sm:block" />
+          <span className="text-3.5xl lg:text-4.5xl text-transparent bg-clip-text bg-gradient-to-r from-eco-primary to-eco-light block mt-1">
+            By Foam Crafts India
+          </span>
+        </h1>
+
+        {/* 2. Slogan (Moved outside h1, given its own clean typography layout) */}
+        <p className="text-xl lg:text-2xl font-semibold text-eco-light tracking-wide mb-6 italic opacity-90">
+          Better Sleep. Better Life.
+        </p>
+
+
+        {/* 3. Description Paragraph (Your rich local SEO keywords from your exact text) */}
+        <p className="text-base lg:text-lg text-eco-light/80 mb-10 leading-relaxed max-w-2xl font-medium">
+          Foam Crafts India is a premier mattress manufacturer in Varanasi, producing high-quality EcoSoft mattresses. We specialize in custom-sized orthopedic foam, body-contouring memory foam, and premium mattress manufacture for residential homes, hotels, and hospitals across India.
+        </p>
 
           <div className="flex flex-col sm:flex-row gap-5">
             <Link to="/shop" className="btn-premium px-8 py-4 text-base shadow-eco-primary/20 gap-3 group">

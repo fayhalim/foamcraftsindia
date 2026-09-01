@@ -57,7 +57,7 @@ export default function Navbar() {
           <Link to="/" onClick={() => scrollToSection('home')} className="flex items-center gap-4 group cursor-pointer">
             <img src={logo} alt="Ecosoft Logo" className="h-14 w-14 object-contain transition-transform duration-500 group-hover:scale-105" />
             <div className="flex flex-col justify-center h-full pt-1">
-              <span className="font-heading font-bold text-2xl leading-none text-eco-slate-900 tracking-tight mb-1">EcoSoft</span>
+              <span className="font-heading font-bold text-2xl leading-none text-eco-slate-900 tracking-tight mb-1">Ecosoft</span>
               <span className="text-[10px] uppercase font-bold text-eco-accent tracking-[0.2em] leading-none">FOAM CRAFTS INDIA</span>
             </div>
           </Link>

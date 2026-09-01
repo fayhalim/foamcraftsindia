@@ -21,7 +21,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-eco-light/80 leading-relaxed max-w-sm">
-              Your trusted partner for premium, customized, and bulk mattress solutions. Quality craftsmanship tailored for your perfect sleep.
+              Your trusted mattress manufacturer for premium, customised, and bulk solutions, crafted in Varanasi for perfect sleep.
             </p>
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-white/5 text-sm font-medium border border-white/10 backdrop-blur-sm">
               <Building2 size={16} className="text-eco-primary" />
