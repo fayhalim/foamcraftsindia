@@ -2,18 +2,18 @@ import { Sparkles, Maximize, Tag, Truck, Boxes, MapPin, Heart, Shield, Wind, Ban
 import { useSiteConfig } from '../context/SiteConfigContext';
 
 const features = [
-  { icon: Sparkles, title: 'Premium Foam Quality', desc: 'Crafted with precision using the finest materials.' },
-  { icon: Boxes, title: 'High-Density Foam', desc: 'Providing optimal support and preventing sagging over time.' },
-  { icon: Heart, title: 'Orthopedic Support', desc: 'Designed to align your spine and relieve pressure points.' },
-  { icon: Shield, title: 'Long-lasting Durability', desc: 'Built to withstand years of regular use without losing shape.' },
-  { icon: Wind, title: 'Breathable Materials', desc: 'Promoting airflow to keep you cool and comfortable all night.' },
-  { icon: Banknote, title: 'Affordable Pricing', desc: 'Premium sleep experience at a price that fits your budget.' },
-  { icon: Maximize, title: 'Custom Mattress Sizes', desc: 'Tailored perfectly to fit any bed frame dimensions.' },
-  { icon: Factory, title: 'Direct Manufacturer', desc: 'Eliminating middlemen to give you the best value directly from our factory.' },
-  { icon: Truck, title: 'Fast Delivery', desc: 'Ensuring your new mattress reaches you safely and promptly.' },
-  { icon: HeadphonesIcon, title: 'Excellent Customer Support', desc: 'Dedicated team to help you choose the right mattress and assist after purchase.' },
-  { icon: Leaf, title: 'Eco-Friendly Materials', desc: 'We use safe, durable, and environmentally responsible materials that provide a healthier and more comfortable sleeping experience.' },
-  { icon: Settings, title: 'Advanced Manufacturing', desc: 'Every mattress is manufactured using modern machinery, precision engineering, and strict quality control to ensure consistent comfort, durability, and performance.' },
+  { icon: Sparkles, title: 'Premium Quality', desc: 'Crafted with absolute precision using only the finest high-grade comfort materials.' },
+  { icon: Boxes, title: 'High-Density Foam', desc: 'Providing optimal structural support and effectively preventing sagging over time.' },
+  { icon: Heart, title: 'Orthopedic Support', desc: 'Expertly designed to align your spine and eliminate painful pressure points.' },
+  { icon: Shield, title: 'Lasting Durability', desc: 'Intentionally built to withstand regular daily use while maintaining perfect shape.' },
+  { icon: Wind, title: 'Breathable Fabrics', desc: 'Actively promoting cooling airflow to keep you refreshed all night long.' },
+  { icon: Banknote, title: 'Affordable Rates', desc: 'Delivering a premium sleep experience at rates that fit your budget.' },
+  { icon: Maximize, title: 'Custom Sizes', desc: 'Tailored perfectly to match any specific bed frame dimensions you require.' },
+  { icon: Factory, title: 'Direct Manufacturer', desc: 'Eliminating expensive middleman costs to pass massive savings.' },
+  { icon: Truck, title: 'Fast Delivery', desc: 'Ensuring your brand new mattress reaches your doorstep safely and quickly.' },
+  { icon: HeadphonesIcon, title: 'Customer Support', desc: 'Our dedicated team provides complete guidance before and after your purchase.' },
+  { icon: Leaf, title: 'Eco Friendly', desc: 'Using safe, non-toxic, and environmentally friendly components for healthy sleep.' },
+  { icon: Settings, title: 'Elite Manufacturing', desc: 'Using modern machinery and strict quality control for consistent daily performance.' },
 ];
 
 import { Factory } from 'lucide-react';
@@ -27,12 +27,33 @@ export default function Features() {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-20">
-          <span className="text-eco-primary font-bold tracking-widest text-xs uppercase mb-3 block">Why Choose Us</span>
-          <h2 className="text-4xl md:text-5xl font-heading font-bold text-eco-slate-900 mb-6 tracking-tight">The {config.brandName || 'EcoSoft'} Difference</h2>
-          <p className="text-lg text-eco-slate-900/60 leading-relaxed">
+          
+          {/* 1. WHY CHOOSE US: Change "14px" up or down to adjust font size */}
+          <span 
+            style={{ fontSize: "14px" }} 
+            className="text-eco-primary font-bold tracking-widest uppercase mb-3 block"
+          >
+            Why Choose Us?
+          </span>
+          
+          {/* 2. MAIN HEADING: Change "48px" up or down to adjust font size */}
+          <h2 
+            style={{ fontSize: "48px" }} 
+            className="font-heading font-bold text-eco-slate-900 mb-6 tracking-tight"
+          >
+            The Ecosoft Difference
+          </h2>
+          
+          {/* 3. DESCRIPTION PARAGRAPH: Change "18px" up or down to adjust font size */}
+          <p 
+            style={{ fontSize: "18px" }} 
+            className="text-eco-slate-900/60 leading-relaxed"
+          >
             Every mattress is crafted with precision and undergoes strict quality checks to ensure lasting comfort, durability, and excellent value.
           </p>
+
         </div>
+
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {features.map((feature, idx) => {

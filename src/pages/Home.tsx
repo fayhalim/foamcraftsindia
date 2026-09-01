@@ -21,11 +21,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-eco-slate-50/50 to-white/50 pointer-events-none"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+
             <div className="max-w-2xl">
               <span className="text-eco-primary font-bold tracking-widest text-xs uppercase mb-3 block">Discover Comfort</span>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-eco-slate-900 mb-6 tracking-tight">Our Best Sellers</h2>
               <p className="text-lg text-eco-slate-900/60 leading-relaxed">Experience unparalleled comfort and superior support with our most popular premium mattresses, crafted for your ultimate rest.</p>
             </div>
+            
             <Link to="/shop" className="hidden md:flex items-center gap-2 text-eco-primary font-semibold hover:text-eco-dark transition-colors group">
               View All Collection <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
             </Link>

@@ -5,7 +5,7 @@ import { Button } from "./ui/Button";
 
 export default function ContactSection() {
   const { config } = useSiteConfig();
-  const whatsappLink = `https://wa.me/917518233001?text=${encodeURIComponent("Hello EcoSoft Foam Crafts India, I need help with an order.")}`;
+  const whatsappLink = `https://wa.me/917518233001?text=${encodeURIComponent("Hello Foam Crafts India, I need help with an order.")}`;
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -16,6 +16,7 @@ export default function ContactSection() {
 
   return (
     <section id="contact" className="py-24 bg-white relative">
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-eco-primary font-bold tracking-widest text-xs uppercase mb-3 block">
@@ -24,9 +25,8 @@ export default function ContactSection() {
           <h2 className="text-4xl md:text-5xl font-heading font-bold text-eco-slate-900 mb-6 tracking-tight">
             Contact Us
           </h2>
-          <p className="text-lg text-eco-slate-900/60 leading-relaxed">
-            Have questions about our mattresses? Need help with an order? Our
-            sleep experts are here to help you.
+          <p className="text-base text-eco-slate-900/60 leading-relaxed">
+            Have questions about our mattresses or need help with an order? <br/> Our sleep experts are here to assist you!<br/>
           </p>
         </div>
 

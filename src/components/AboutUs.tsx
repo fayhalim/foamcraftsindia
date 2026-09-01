@@ -36,11 +36,11 @@ export default function AboutUs() {
           <div>
             <span className="text-eco-primary font-bold tracking-widest text-xs uppercase mb-3 block">About Us</span>
             <h2 className="text-4xl md:text-5xl font-heading font-bold text-eco-slate-900 mb-6 tracking-tight">
-              We Craft Better Sleep for a Better Life
+            Crafting Sleep. Transforming Life.
             </h2>
             
             <p className="text-lg text-eco-slate-900/60 leading-relaxed mb-8">
-              At {config.companyName || 'Foam Crafts India'}, we believe that quality sleep is the foundation of a healthy life. We are a premier manufacturer of orthopedic and memory foam mattresses, dedicated to delivering superior comfort directly to your doorstep. Our mission is to provide premium sleep solutions without the premium price tag.
+We believe that deep, restorative rest is the foundation of a healthy life. Our team is dedicated to delivering superior comfort and pressure relief directly from our production facility to your doorstep. We combine premium engineering with accessible value, making it our mission to provide elite sleep solutions without the premium price tag.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 mb-10">
@@ -60,7 +60,7 @@ export default function AboutUs() {
                 </div>
                 <div>
                   <h4 className="font-bold text-eco-slate-900 mb-1">Our Values</h4>
-                  <p className="text-sm text-eco-slate-900/60">Quality, Transparency, and Customer Satisfaction.</p>
+                  <p className="text-sm text-eco-slate-900/60">Quality, transparency, and customer satisfaction.</p>
                 </div>
               </div>
             </div>
