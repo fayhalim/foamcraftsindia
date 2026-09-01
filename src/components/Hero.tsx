@@ -34,11 +34,11 @@ export default function Hero() {
             Premium Mattress Manufacturer in Varanasi
           </motion.div>
           <h1 className="text-5xl lg:text-7xl font-heading font-bold tracking-tight mb-8 leading-[1.1]">
-            Ecosoft Mattresses by<br className="hidden sm:block" />
+            Ecosoft Mattresses<br className="hidden sm:block" />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-eco-primary to-eco-light">Foam Crafts India</span>
           </h1>
           <p className="text-lg text-eco-light/80 mb-10 leading-relaxed max-w-2xl font-medium">
-            Leading mattress manufacturer in Vranasi. Combining quality materials, skilled craftsmanship, and advanced manufacturing to deliver mattresses that provide superior comfort, support, and durability.
+            Leading mattress manufacturer in Varanasi. Combining quality materials, skilled craftsmanship, and advanced manufacturing to deliver mattresses that provide superior comfort, support, and durability.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5">
