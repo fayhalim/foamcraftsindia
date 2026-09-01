@@ -37,7 +37,7 @@ export default function Hero() {
         {/* 1. Main Heading (Clean & Punchy Brand Identity) */}
         <h1 className="text-4xl lg:text-5xl font-heading font-bold tracking-tight mb-3 leading-[1.2]">
           Ecosoft Mattresses<br className="hidden sm:block" />
-          <span className="text-3.5xl lg:text-4.5xl text-transparent bg-clip-text bg-gradient-to-r from-eco-primary to-eco-light block mt-1">
+          <span className="text-3xl lg:text-4.5xl text-transparent bg-clip-text bg-gradient-to-r from-eco-primary to-eco-light block mt-1">
             By Foam Crafts India
           </span>
         </h1>
