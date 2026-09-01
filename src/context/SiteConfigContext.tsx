@@ -1,3 +1,4 @@
+
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { doc, onSnapshot } from 'firebase/firestore';
 import { db } from '../lib/firebase';
@@ -20,13 +21,13 @@ interface SiteConfigContextType {
 
 const defaultConfig: SiteConfig = {
   logoUrl: '/favicon.ico', // Default local logo fallback if available
-  siteName: "EcoSoft",
-  companyName: "Foam Crafts India",
-  contactNumber: "+91 751823300",
-  whatsappNumber: "+91 751823300",
+  siteName: "Foam Crafts India",
+  companyName: " Ecosoft | Foam Crafts India",
+  contactNumber: "+91 7518233001",
+  whatsappNumber: "+91 7518233001",
   emailAddress: "foamcraftsindia01@gmail.com",
   businessAddress: "Nawrang Plot No. 416 NH-56\nAirport Road (Near K J Hotel)\nBabatpur Bazar\nVaranasi, Uttar Pradesh – 221006\nIndia",
-  heroText: "Quality Mattresses. Better Sleep. Better Life.",
+  heroText: "Ecosoft Mattresses by Foam Crafts India. Leading Mattress Manufacturer in Varanasi",
   themeColorPrimary: "#059669"
 };
 

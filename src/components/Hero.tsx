@@ -31,14 +31,14 @@ export default function Hero() {
             className="inline-flex items-center gap-3 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 backdrop-blur-md text-eco-light text-sm font-semibold mb-8 shadow-sm"
           >
             <span className="w-2.5 h-2.5 rounded-full bg-eco-primary shadow-[0_0_8px_rgba(75,175,71,0.8)] animate-pulse"></span>
-            Premium Mattress Manufacturer
+            Premium Mattress Manufacturer in Varanasi
           </motion.div>
           <h1 className="text-5xl lg:text-7xl font-heading font-bold tracking-tight mb-8 leading-[1.1]">
-            Better Sleep. <br className="hidden sm:block" />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-eco-primary to-eco-light">Better Life.</span>
+            Ecosoft Mattresses by<br className="hidden sm:block" />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-eco-primary to-eco-light">Foam Crafts India</span>
           </h1>
           <p className="text-lg text-eco-light/80 mb-10 leading-relaxed max-w-2xl font-medium">
-            Combining quality materials, skilled craftsmanship, and advanced manufacturing to deliver mattresses that provide superior comfort, support, and durability.
+            Leading mattress manufacturer in Vranasi. Combining quality materials, skilled craftsmanship, and advanced manufacturing to deliver mattresses that provide superior comfort, support, and durability.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5">
