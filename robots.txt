@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://foam-crafts-india.netlify.app/sitemap.xml

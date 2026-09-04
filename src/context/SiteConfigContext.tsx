@@ -22,12 +22,12 @@ interface SiteConfigContextType {
 const defaultConfig: SiteConfig = {
   logoUrl: '/favicon.ico', // Default local logo fallback if available
   siteName: "Foam Crafts India",
-  companyName: " Ecosoft | Foam Crafts India",
+  companyName: " Foam Crafts India | Ecosoft  ",
   contactNumber: "+91 7518233001",
   whatsappNumber: "+91 7518233001",
   emailAddress: "foamcraftsindia01@gmail.com",
   businessAddress: "Nawrang Plot No. 416 NH-56\nAirport Road (Near K J Hotel)\nBabatpur Bazar\nVaranasi, Uttar Pradesh – 221006\nIndia",
-  heroText: "Ecosoft Mattresses by Foam Crafts India. Leading Mattress Manufacturer in Varanasi",
+  heroText: "Foam Crafts India | Ecosoft | Mattress Manufacturer in India",
   themeColorPrimary: "#059669"
 };
 
