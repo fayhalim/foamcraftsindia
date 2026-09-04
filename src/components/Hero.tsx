@@ -48,7 +48,7 @@ export default function Hero() {
             style={{ fontSize: "34.5px" }} 
             className="text-white block"
           >
-            Ecosoft Mattresses
+            Foam Crafts India
           </span>
           
           {/* CONTROL FOAM CRAFTS SIZE HERE: Change "32px" up or down */}
@@ -56,7 +56,7 @@ export default function Hero() {
             style={{ fontSize: "30px" }} 
             className="text-transparent bg-clip-text bg-gradient-to-r from-eco-primary to-eco-light block mt-1"
           >
-            By Foam Crafts India
+            Crafting Comfort With Ecosoft
           </span>
 
         </h1>
